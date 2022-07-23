@@ -1,0 +1,44 @@
+﻿@model MyAbilityFirst.Domain.AttachmentManagement.AttachmentType
+@switch (@Model.ToString())
+{
+	case "ProfilePhoto":<span>Photo</span>
+		break;
+	case "CarePlanDocument":<span>Care Plan Document</span>
+		break;
+	case "NdisPlanDocument":<span>Ndis Plan Document</span>
+		break;
+	case "GpDocument":<span>GP Document</span>
+		break;
+	case "BirthCertificate":<span>Birth Certificate</span>
+		break;
+	case "MedicareDocument":<span>Medicare Document</span>
+		break;
+	case "ProofOfAgeDocument":<span>Proof of Age Document</span>
+		break;
+	case "PsychologyReport":<span>Psychology Report</span>
+		break;
+	case "ReviewAssessmentReport":<span>Review Assessment Report</span>
+		break;
+	case "CV":<span>CV</span>
+		break;
+	case "Qualifications":<span>Certification / Degree</span>
+		break;
+	case "Referencees":<span>Refferences</span>
+		break;
+	case "SpecialAwards":<span>Special Awards</span>
+		break;
+	case "DriverLicense":<span>Driver License</span>
+		break;
+	case "RegisteredVehicle":<span>Registered Vehicle</span>
+		break;
+	case "CPRAndFirstAidCertificate":<span>CPR and First Aid Certificate</span>
+		break;
+	case "PoliceCriminalRecordsCheck":<span>Police Criminal Records Check</span>
+		break;
+	case "Passport":<span>Passport</span>
+		break;
+	case "WorkingWithChildrenCheck":<span>Woring with Children Check</span>
+		break;
+	case "WorkingWithVulnerablePeopleCheck":<span>Working with Vulnerable People Check</span>
+		break;
+}
